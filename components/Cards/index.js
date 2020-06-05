@@ -22,7 +22,7 @@
 
 const divArticles = document.querySelector('.cards-container')
 
-//create a function that makes the article div cards
+//create a function that makes the article div cards, taking as arguments the needed data from the axios response - headline of article, url of authros image, and author's name
 function divArticlesMaker (headline, authorPhoto, authorName){
     // create the elements
     const divCard = document.createElement('div')
